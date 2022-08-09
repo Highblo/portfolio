@@ -1,0 +1,124 @@
+@media(max-width: 1000px) {
+
+    html {
+        font-size: 15px;
+    }
+
+    /* ロード */
+    .load-container p {
+        font-size: 48px;
+    }
+
+    /* ヘッダー */
+    header .nav {
+        display: none;
+    }
+
+    .button {
+        display: block;
+    }
+
+    /* プロフィール */
+    .card {
+        width: 45%;
+    }
+
+    .js-flex {
+        transform: translateY(100px);
+    }
+    .js-flex.media-js {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .image {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* スキル */
+    .coment p {
+        margin-top: 32px;
+        padding-bottom: 12px;
+    }
+
+    /* ワークス */
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    /* 最後に*/
+    .news h4 {
+        font-size: 3.5rem;
+    }
+}
+
+@media(max-width: 600px) {
+    /* ロード */
+    .load-container p {
+        font-size: 2rem;
+        letter-spacing: 8px;
+    }
+
+    /* プロフィール */
+    .flex {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 85%;
+        margin: 0 auto 32px;
+    }
+
+    .nav-media {
+        width: 65%;
+    }
+
+    /* スキル */
+    .skil-flex {
+        display: block;
+        margin-bottom: 48px;
+    }
+
+    .skil {
+        margin: 0 auto;
+    }
+
+    .coment {
+        width: 100%;
+    }
+
+    .coment p {
+        margin: 10px 0;
+    }
+
+    /* ワークス */
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-item {
+        width: 85%;
+        margin: 0 auto 32px;
+    }
+
+    .grid-item:hover {
+        transform: perspective(100px) translateZ(5px);
+    }
+
+    .grid-item p {
+        opacity: 1;
+    }
+
+    /* コンタクト */
+    .contact {
+        padding: 40px 0;
+    }
+
+    form {
+        padding: 0;
+    }
+
+    /* 最後に */
+    .news h4 {
+        font-size: 1.8rem;
+    }
+}
